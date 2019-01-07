@@ -1,0 +1,3 @@
+sudo apt-get install build-essential libtcmalloc-minimal4 && sudo ln -s /usr/lib/
+sudo apt-get *boost-system*
+ g++ e.cpp -o ll -std=c++11 -lpthread -lboost_system 
